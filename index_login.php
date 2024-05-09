@@ -4,7 +4,7 @@ session_start();
 if(isset($_SESSION['nombre_de_usuario'])){
   header("location: index.php");
 
-}
+} // Hacemos la logica con php diciendo que si existe una sesion nos envie al index.php
 ?>
 
 <!DOCTYPE html>
